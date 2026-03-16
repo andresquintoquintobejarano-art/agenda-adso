@@ -1,0 +1,37 @@
+/* Archivo: src/index.css */
+/* Importa las capas base de Tailwind CSS */
+@import "tailwindcss";
+
+@keyframes chromaShift {
+  0% { background-position: 0% 50%; }
+  50% { background-position: 100% 50%; }
+  100% { background-position: 0% 50%; }
+}
+
+* {
+  font-family: 'Outfit', sans-serif;
+}
+
+body {
+  color: #1e1b4b;
+}
+
+h1, h2, h3 {
+  color: #ffffff;
+  text-shadow: 0 2px 12px rgba(109,40,217,0.4);
+}
+
+p, label {
+  color: #1e1b4b;
+  font-weight: 500;
+}
+
+header p {
+  color: rgba(255,255,255,0.85) !important;
+  font-weight: 600;
+  letter-spacing: 0.15em;
+}
+
+footer p {
+  color: rgba(255,255,255,0.6) !important;
+}

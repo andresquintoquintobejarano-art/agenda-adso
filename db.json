@@ -1,0 +1,19 @@
+{
+  "contactos": [
+    {
+      "nombre": "Davier Quinto",
+      "telefono": "302 566 1828",
+      "correo": "Quinto@sena.edu.co",
+      "etiqueta": "Compañero",
+      "id": "1"
+    },
+    {
+      "id": "2",
+      "nombre": "Gustavo Bolaños",
+      "telefono": "315 987 6543",
+      "correo": "Gustavo@sena.edu.co",
+      "etiqueta": "Instructor"
+    }
+  ],
+  "$schema": "./node_modules/json-server/schema.json"
+}
