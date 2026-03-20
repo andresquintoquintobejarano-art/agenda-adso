@@ -2,7 +2,6 @@
 // Archivo: src/components/VistaLateral.jsx
 
 import { APP_INFO } from "../config";
-import PanelLateral from "./components/PanelLateral";
 
 function VistaLateral({ contactos }) {
   return (
